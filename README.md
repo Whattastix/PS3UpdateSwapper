@@ -1,6 +1,6 @@
 # PS3 Update File Swapper
 
-Something I whipped up in about 4 hours to make a cool swappable PS3 Update file system.
+Something I whipped up in about 4 hours to make a cool swappable "PS3 Update file" system.
 
 ## Requirements
 
