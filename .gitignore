@@ -1,0 +1,27 @@
+# VSCode
+.vscode
+
+# CMake build
+build
+
+# Compiled Files
+a.exe
+a.out
+main
+main.exe
+PS3-Update-Swapper
+PS3-Update-Swapper.exe
+PS3UpdateSwapper
+PS3UpdateSwapper.exe
+
+# PS3 Update Files
+PS3UPDAT.PUP
+OFW_PS3UPDAT.PUP
+HFW_PS3UPDAT.PUP
+
+# "Internally" used files
+Current-is-HFW
+Current-is-OFW
+
+# DLL files, should you compile this on Windows
+*.dll
