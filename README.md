@@ -1,6 +1,6 @@
 # PS3 Update File Swapper
 
-Something I whipped up in about 4 hours to make a cool swappable "PS3 Update file" system.
+Something I whipped up in about 4 hours to make a cool swappable "PS3 Update File" system.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ The program makes use of the CMake build system.
 You can compile on Linux as follows:
 
 ```bash
-git clone
+git clone https://github.com/Whattastix/PS3UpdateSwapper.git
 cmake . -B build
 cd build
 make
@@ -26,7 +26,7 @@ the resulting executable will be located in `build/dist` folder.
 For the executable to function as intended on Linux, please mount the update FAT32 partition with the `exec` option. By default, binaries in FAT32 partitions are not executable.
 
 ```bash
-sudo mount -o exec /dev/sdX#
+mount -t vfat -o rw,user,umask=000,exec /dev/sdX# /your/mountpoint
 ```
 
 ## File Structure
