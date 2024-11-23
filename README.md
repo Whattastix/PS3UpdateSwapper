@@ -21,6 +21,14 @@ make
 
 the resulting executable will be located in `build/dist` folder.
 
+### Note
+
+For the executable to function as intended on Linux, please mount the update FAT32 partition with the `exec` option. By default, binaries in FAT32 partitions are not executable.
+
+```bash
+sudo mount -o exec /dev/sdX#
+```
+
 ## File Structure
 
 Set up the files as follows:
